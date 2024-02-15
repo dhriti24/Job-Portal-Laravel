@@ -33,6 +33,8 @@ Route::group(['account'], function () {
 
     Route::group(['middleware' => 'auth'], function () {
         Route::get('/account/profile', [AccountController::class, 'profile'])->name('account.profile');
+        Route::put('/account/updatep-rofile', [AccountController::class, 'updateProfile'])->name('account.updateProfile');
         Route::get('/account/logout', [AccountController::class, 'logout'])->name('account.logout');
+        Route::post('account/update-profile-picture', [AccountController::class, 'updateProfilePic'])->name('account.updateProfilePic');
     });
 });
