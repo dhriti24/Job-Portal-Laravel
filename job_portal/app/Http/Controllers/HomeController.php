@@ -20,6 +20,11 @@ class HomeController extends Controller
 
         $latestJobs = Job::where('status', 1)->orderBy('created_at', 'DESC')->with('jobType')->take(6)->get();
 
+        //count the number of jobs in each category
+        foreach ($categories as $category) {
+            $category->jobCount = Job::where('status', 1)->where('category_id', $category->id)->count();
+        }
+
         return view('front.home', [
             'categories' => $categories,
             'featuredJobs' => $featuredJobs,

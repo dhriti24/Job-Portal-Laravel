@@ -7,7 +7,6 @@
             <div class="col-12 col-xl-8">
                 <h1>Find your dream job</h1>
                 <p>Thounsands of jobs available.</p>
-                <div class="banner-btn mt-5"><a href="#" class="btn btn-primary mb-4 mb-sm-0">Explore Now</a></div>
             </div>
         </div>
     </div>
@@ -58,7 +57,7 @@
             <div class="col-lg-4 col-xl-3 col-md-6">
                 <div class="single_catagory">
                     <a href="{{ route('jobs').'?category='.$category->id }}"><h4 class="pb-2">{{ $category -> name }}</h4></a>
-                    <p class="mb-0"> <span>0</span> Available position</p>
+                    <p class="mb-0"> <span>{{ $category->jobCount }}</span> Available position</p>
                 </div>
             </div>
                 

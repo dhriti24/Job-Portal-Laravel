@@ -69,8 +69,9 @@
                                     @else
                                         <tr>
                                             <td colspan="5">
-                                                Job Applications Not Found
+                                                No Jobs Saved
                                             </td>
+                                        </tr>
                                     @endif
                                 </tbody>
                             </table>
