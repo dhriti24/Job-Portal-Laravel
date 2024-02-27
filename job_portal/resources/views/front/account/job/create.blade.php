@@ -92,7 +92,7 @@
                         </div>
                         <div class="mb-4">
                             <label for="" class="mb-2">Qualifications</label>
-                            <textarea class="form-control" name="qualifications" id="qualifications" cols="5" rows="5" placeholder="Qualifications"></textarea>
+                            <textarea class="form-control" name="qualification" id="qualification" cols="5" rows="5" placeholder="Qualification"></textarea>
                         </div>
                         
                         <div class="mb-4">

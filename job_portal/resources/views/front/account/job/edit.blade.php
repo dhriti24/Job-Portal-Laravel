@@ -92,9 +92,8 @@
                         </div>
                         <div class="mb-4">
                             <label for="" class="mb-2">Qualifications</label>
-                            <textarea class="form-control" name="qualifications" id="qualifications" cols="5" rows="5" placeholder="Qualifications">{{ $job -> qualifications }}</textarea>
-                        </div>
-                        
+                            <textarea class="form-control" name="qualification" id="qualification" cols="5" rows="5" placeholder="Qualification">{{ $job -> qualification }}</textarea>
+                        </div>                        
                         <div class="mb-4">
                             <label for="" class="mb-2">Experience<span class="req">*</span></label>
                             <select name="experience" id="experience" class="form-control">
