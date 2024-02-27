@@ -11,9 +11,6 @@ This project is a job hunting platform developed using PHP and Laravel. It provi
 -   [Configuration](#configuration)
 -   [Usage](#usage)
 -   [Features](#features)
--   [Notes](#notes)
--   [Contributing](#contributing)
--   [License](#license)
 
 ## Prerequisites
 
@@ -46,10 +43,9 @@ Make sure you have the following prerequisites installed:
 
 ## Configuration
 
-    ```ini
+    Modify Php.ini file
     ; extension=gd
     extension=gd
-    ```
 
 ## Usage
 
